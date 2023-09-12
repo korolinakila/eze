@@ -9,6 +9,9 @@ int itc_sqrt(int num){
     if (a*a==num){
             return a;
     }
+    if(a*a>2 147 483 647){
+        return (-1);
+    }
     else{
         return (-1);
     }
