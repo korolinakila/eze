@@ -9,7 +9,7 @@ int itc_sqrt(int num){
     if (a*a==num){
             return a;
     }
-    if(a*a>2 147 483 647){
+    if(a*a>2147483647){
         return (-1);
     }
     else{
