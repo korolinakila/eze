@@ -2,15 +2,12 @@
 #include <iostream>
 using namespace std;
 int itc_sqrt(int num){
-    int a=0;
+    long long a=0;
     while (num!= a*a && a<=num){
         a+=1;
     }
     if (a*a==num){
             return a;
-    }
-    if(a*a>2147483647){
-        return (-1);
     }
     else{
         return (-1);
