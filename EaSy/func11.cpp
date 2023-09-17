@@ -24,25 +24,11 @@ double itc_pow(int num, int step){
     return -1;
 }   //16
 
+
 bool itc_ispositive(int num){
-if (num>=0){
-    cout << "TRUE" << endl;
     return num>=0;
-}
-if (num<0){
-    cout << "FALSE" << endl;
-    return num>=0;
-}
 }   //17
 
 bool itc_ispositive_d(double num){
- if (num>=0){
-    cout << "TRUE" << endl;
     return num>=0;
-}
-
-if (num<0){
-    cout << "FALSE" << endl;
-    return num>=0;
-}
 }   //18
