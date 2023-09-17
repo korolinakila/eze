@@ -46,7 +46,7 @@ else{
 
 double itc_scir(int radius){
 if (radius > 0){
-    return radius*3.14;
+    return radius*radius*3.14;
 }
 else{
     return -1;
