@@ -21,7 +21,7 @@ double itc_pow(int num, int step){
         return p;
 
     }
-
+    return -1;
 }   //16
 
 bool itc_ispositive(int num){
