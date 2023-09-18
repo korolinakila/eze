@@ -36,7 +36,7 @@ else{
 
 int itc_str(int a, int b, int c){
 if((a>0 && b>0 && c>0)&&(a+b>c && b+c>a && c+a>b)){
-    int p = (a+b+c)/2;
+    double p = (a+b+c)/2.0;
     int s = itc_sqrt(p*(p-a)*(p-b)*(p-c));
     return s;
 }
