@@ -3,9 +3,10 @@
 using namespace std;
 int itc_sqrt(int num){
     long long a=0;
-    while (num!= a*a && a*a<=num){
+    while (a*a<=num){
         a+=1;
     }
+    a-=1;
     if (a*a==num){
             return a;
     }
